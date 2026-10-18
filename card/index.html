@@ -1,1 +1,55 @@
-
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#112D5A">
+<meta name="description" content="Michael Greene, Principal at RHYOS — professional contact card.">
+<title>Michael Greene | RHYOS</title>
+<style>
+:root{color-scheme:light;--blue:#112D5A;--ivory:#F7F4EC}
+*{box-sizing:border-box}
+html{min-height:100%;background:#e8eaf0}
+body{margin:0;min-height:100svh;display:grid;place-items:center;padding:24px 14px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+.card{width:min(100%,430px);background:var(--blue);color:var(--ivory);border-radius:28px;padding:20px;box-shadow:0 18px 60px #12274b35}
+.inner{border:1px solid #9bacc9;border-radius:23px;padding:20px 18px 24px;text-align:center}
+.brand{display:block;width:min(100%,270px);height:auto;margin:-25px auto -48px}
+.rule{width:54px;height:1px;background:var(--ivory);margin:0 auto 26px;opacity:.9}
+.photo{width:100%;aspect-ratio:1.58;background:#244473;border-radius:13px;display:grid;place-content:center;gap:9px;color:#dce4f2;margin:0 auto 27px}
+.photo svg{width:27px;height:27px;margin:auto}
+.photo span{font-size:13px;letter-spacing:.02em}
+h1{font-size:27px;font-weight:400;letter-spacing:-.035em;margin:0 0 7px}
+.role{font-size:16px;margin:0 0 28px;color:#e1e8f4}
+.save{display:block;text-decoration:none;background:var(--ivory);color:var(--blue);border-radius:13px;padding:17px 12px;font-size:20px;font-weight:600;margin-bottom:25px}
+.actions{display:flex;justify-content:center;gap:31px;align-items:center}
+.actions a{color:var(--ivory);width:31px;height:35px;display:grid;place-items:center}
+.actions svg{width:26px;height:26px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.actions a:focus-visible,.save:focus-visible{outline:3px solid #fff;outline-offset:4px}
+.note{text-align:center;font-size:12px;color:#cad6e8;margin:18px 0 2px}
+@media(max-width:370px){.card{padding:14px}.inner{padding:14px}.actions{gap:25px}}
+@media(min-width:600px){body{padding:42px}}
+</style>
+</head>
+<body>
+<main class="card">
+<div class="inner">
+<img class="brand" src="./rhyos-logo.svg" alt="RHYOS" />
+<div class="rule" aria-hidden="true"></div>
+<div class="photo" role="img" aria-label="Portrait to be added">
+<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" fill="none" stroke-width="1.5"/><circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/><path d="m4 18 5-5 3 3 3-4 5 6" stroke="currentColor" fill="none" stroke-width="1.5"/></svg>
+<span>Portrait coming soon</span>
+</div>
+<h1>Michael Greene</h1>
+<p class="role">Principal | RHYOS</p>
+<a class="save" href="./michael-greene.vcf" download="Michael-Greene-RHYOS.vcf">Save Contact</a>
+<nav class="actions" aria-label="Contact options">
+<a href="tel:+13476920131" aria-label="Call Michael Greene"><svg viewBox="0 0 24 24"><path d="M22 16.8v3a2 2 0 0 1-2.2 2A19.5 19.5 0 0 1 2.2 4.2 2 2 0 0 1 4.2 2h3a2 2 0 0 1 2 1.7l.5 3a2 2 0 0 1-.6 1.8L7.2 10a16 16 0 0 0 6.8 6.8l1.5-1.9a2 2 0 0 1 1.8-.6l3 .5a2 2 0 0 1 1.7 2z"/></svg></a>
+<a href="mailto:michael@rhyostax.com" aria-label="Email Michael Greene"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m3 6 9 7 9-7"/></svg></a>
+<a href="https://rhyostax.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit RHYOS website"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2c3 3 4 6 4 10s-1 7-4 10c-3-3-4-6-4-10s1-7 4-10z"/></svg></a>
+<a href="https://www.linkedin.com/in/michaeljgreene" target="_blank" rel="noopener noreferrer" aria-label="Michael Greene on LinkedIn"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="2"/><path d="M7 10v8M7 6v.2M11 18v-8h0v1.5a3 3 0 0 1 6 1.5v5"/></svg></a>
+</nav>
+</div>
+<p class="note">RHYOS · Professional contact</p>
+</main>
+</body>
+</html>
